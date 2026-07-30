@@ -29,7 +29,7 @@ git commit -m "ML Assignment 2: Spambase classifiers and Streamlit app"
 
 # Create empty repo on GitHub, then:
 git branch -M main
-git remote add origin https://github.com/<YOUR_USERNAME>/ML_Assignment_2.git
+git remote add origin https://github.com/soniyajuneja000/ML_Assignment_2.git
 git push -u origin main
 ```
 

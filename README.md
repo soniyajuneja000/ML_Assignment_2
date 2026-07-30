@@ -47,8 +47,9 @@ In this assignment I:
 
 ## c. GitHub Repository Link
 
-> **Replace after you push your repo:**  
-> `https://github.com/<YOUR_GITHUB_USERNAME>/ML_Assignment_2`
+**https://github.com/soniyajuneja000/ML_Assignment_2**
+
+(Push from your machine after creating the empty repo on [GitHub Dashboard](https://github.com/dashboard) — see commands below.)
 
 ### Required repository structure (guideline Step 3)
 

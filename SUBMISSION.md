@@ -11,7 +11,7 @@ Paste this content into your final PDF **in this exact order** (guideline Sectio
 ## 1. GitHub Repository Link
 
 ```
-https://github.com/<YOUR_GITHUB_USERNAME>/ML_Assignment_2
+https://github.com/soniyajuneja000/ML_Assignment_2
 ```
 
 Repository includes: complete source (`app.py`, `model/train_models.py`), `requirements.txt`, `README.md`, `test_data.csv`, and saved model files under `model/`.
