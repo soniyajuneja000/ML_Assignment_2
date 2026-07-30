@@ -1,0 +1,317 @@
+{
+  "dataset_name": "Spambase",
+  "dataset_source": "UCI Machine Learning Repository / OpenML",
+  "dataset_url": "https://archive.ics.uci.edu/dataset/94/spambase",
+  "task": "Binary classification (spam vs non-spam)",
+  "n_instances": 4601,
+  "n_features": 57,
+  "feature_names": [
+    "word_freq_make",
+    "word_freq_address",
+    "word_freq_all",
+    "word_freq_3d",
+    "word_freq_our",
+    "word_freq_over",
+    "word_freq_remove",
+    "word_freq_internet",
+    "word_freq_order",
+    "word_freq_mail",
+    "word_freq_receive",
+    "word_freq_will",
+    "word_freq_people",
+    "word_freq_report",
+    "word_freq_addresses",
+    "word_freq_free",
+    "word_freq_business",
+    "word_freq_email",
+    "word_freq_you",
+    "word_freq_credit",
+    "word_freq_your",
+    "word_freq_font",
+    "word_freq_000",
+    "word_freq_money",
+    "word_freq_hp",
+    "word_freq_hpl",
+    "word_freq_george",
+    "word_freq_650",
+    "word_freq_lab",
+    "word_freq_labs",
+    "word_freq_telnet",
+    "word_freq_857",
+    "word_freq_data",
+    "word_freq_415",
+    "word_freq_85",
+    "word_freq_technology",
+    "word_freq_1999",
+    "word_freq_parts",
+    "word_freq_pm",
+    "word_freq_direct",
+    "word_freq_cs",
+    "word_freq_meeting",
+    "word_freq_original",
+    "word_freq_project",
+    "word_freq_re",
+    "word_freq_edu",
+    "word_freq_table",
+    "word_freq_conference",
+    "char_freq_%3B",
+    "char_freq_%28",
+    "char_freq_%5B",
+    "char_freq_%21",
+    "char_freq_%24",
+    "char_freq_%23",
+    "capital_run_length_average",
+    "capital_run_length_longest",
+    "capital_run_length_total"
+  ],
+  "target_names": [
+    "non-spam (0)",
+    "spam (1)"
+  ],
+  "class_distribution": {
+    "non-spam (0)": 2788,
+    "spam (1)": 1813
+  },
+  "train_size": 3450,
+  "test_size": 1151,
+  "random_state": 42,
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.9227,
+      "AUC": 0.9732,
+      "Precision": 0.9047,
+      "Recall": 0.8987,
+      "F1": 0.9017,
+      "MCC": 0.838
+    },
+    "Decision Tree": {
+      "Accuracy": 0.9027,
+      "AUC": 0.9487,
+      "Precision": 0.88,
+      "Recall": 0.8722,
+      "F1": 0.8761,
+      "MCC": 0.796
+    },
+    "kNN": {
+      "Accuracy": 0.914,
+      "AUC": 0.9664,
+      "Precision": 0.8971,
+      "Recall": 0.8833,
+      "F1": 0.8901,
+      "MCC": 0.8195
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.8306,
+      "AUC": 0.9469,
+      "Precision": 0.7133,
+      "Recall": 0.9537,
+      "F1": 0.8162,
+      "MCC": 0.6893
+    },
+    "Random Forest (Ensemble)": {
+      "Accuracy": 0.9409,
+      "AUC": 0.985,
+      "Precision": 0.9427,
+      "Recall": 0.9053,
+      "F1": 0.9236,
+      "MCC": 0.8759
+    }
+  },
+  "reports": {
+    "Logistic Regression": {
+      "confusion_matrix": [
+        [
+          654,
+          43
+        ],
+        [
+          46,
+          408
+        ]
+      ],
+      "classification_report": {
+        "non-spam (0)": {
+          "precision": 0.9342857142857143,
+          "recall": 0.9383070301291249,
+          "f1-score": 0.9362920544022906,
+          "support": 697.0
+        },
+        "spam (1)": {
+          "precision": 0.9046563192904656,
+          "recall": 0.8986784140969163,
+          "f1-score": 0.901657458563536,
+          "support": 454.0
+        },
+        "accuracy": 0.9226759339704604,
+        "macro avg": {
+          "precision": 0.91947101678809,
+          "recall": 0.9184927221130206,
+          "f1-score": 0.9189747564829133,
+          "support": 1151.0
+        },
+        "weighted avg": {
+          "precision": 0.9225987070504034,
+          "recall": 0.9226759339704604,
+          "f1-score": 0.9226307976596367,
+          "support": 1151.0
+        }
+      }
+    },
+    "Decision Tree": {
+      "confusion_matrix": [
+        [
+          643,
+          54
+        ],
+        [
+          58,
+          396
+        ]
+      ],
+      "classification_report": {
+        "non-spam (0)": {
+          "precision": 0.9172610556348074,
+          "recall": 0.9225251076040172,
+          "f1-score": 0.9198855507868383,
+          "support": 697.0
+        },
+        "spam (1)": {
+          "precision": 0.88,
+          "recall": 0.8722466960352423,
+          "f1-score": 0.8761061946902655,
+          "support": 454.0
+        },
+        "accuracy": 0.9026933101650738,
+        "macro avg": {
+          "precision": 0.8986305278174037,
+          "recall": 0.8973859018196297,
+          "f1-score": 0.897995872738552,
+          "support": 1151.0
+        },
+        "weighted avg": {
+          "precision": 0.9025638190942318,
+          "recall": 0.9026933101650738,
+          "f1-score": 0.9026172383039156,
+          "support": 1151.0
+        }
+      }
+    },
+    "kNN": {
+      "confusion_matrix": [
+        [
+          651,
+          46
+        ],
+        [
+          53,
+          401
+        ]
+      ],
+      "classification_report": {
+        "non-spam (0)": {
+          "precision": 0.9247159090909091,
+          "recall": 0.9340028694404591,
+          "f1-score": 0.9293361884368309,
+          "support": 697.0
+        },
+        "spam (1)": {
+          "precision": 0.8970917225950783,
+          "recall": 0.8832599118942731,
+          "f1-score": 0.8901220865704772,
+          "support": 454.0
+        },
+        "accuracy": 0.9139878366637706,
+        "macro avg": {
+          "precision": 0.9109038158429936,
+          "recall": 0.9086313906673661,
+          "f1-score": 0.909729137503654,
+          "support": 1151.0
+        },
+        "weighted avg": {
+          "precision": 0.913819835529565,
+          "recall": 0.9139878366637706,
+          "f1-score": 0.9138685930872873,
+          "support": 1151.0
+        }
+      }
+    },
+    "Naive Bayes": {
+      "confusion_matrix": [
+        [
+          523,
+          174
+        ],
+        [
+          21,
+          433
+        ]
+      ],
+      "classification_report": {
+        "non-spam (0)": {
+          "precision": 0.9613970588235294,
+          "recall": 0.7503586800573888,
+          "f1-score": 0.8428686543110395,
+          "support": 697.0
+        },
+        "spam (1)": {
+          "precision": 0.71334431630972,
+          "recall": 0.9537444933920705,
+          "f1-score": 0.8162111215834119,
+          "support": 454.0
+        },
+        "accuracy": 0.8305821025195482,
+        "macro avg": {
+          "precision": 0.8373706875666247,
+          "recall": 0.8520515867247296,
+          "f1-score": 0.8295398879472258,
+          "support": 1151.0
+        },
+        "weighted avg": {
+          "precision": 0.8635552298910625,
+          "recall": 0.8305821025195482,
+          "f1-score": 0.8323538672924966,
+          "support": 1151.0
+        }
+      }
+    },
+    "Random Forest (Ensemble)": {
+      "confusion_matrix": [
+        [
+          672,
+          25
+        ],
+        [
+          43,
+          411
+        ]
+      ],
+      "classification_report": {
+        "non-spam (0)": {
+          "precision": 0.9398601398601398,
+          "recall": 0.9641319942611191,
+          "f1-score": 0.9518413597733711,
+          "support": 697.0
+        },
+        "spam (1)": {
+          "precision": 0.9426605504587156,
+          "recall": 0.9052863436123348,
+          "f1-score": 0.9235955056179775,
+          "support": 454.0
+        },
+        "accuracy": 0.9409209383145091,
+        "macro avg": {
+          "precision": 0.9412603451594277,
+          "recall": 0.934709168936727,
+          "f1-score": 0.9377184326956743,
+          "support": 1151.0
+        },
+        "weighted avg": {
+          "precision": 0.9409647327461115,
+          "recall": 0.9409209383145091,
+          "f1-score": 0.9407000758580378,
+          "support": 1151.0
+        }
+      }
+    }
+  }
+}
