@@ -49,8 +49,6 @@ In this assignment I:
 
 **https://github.com/soniyajuneja000/ML_Assignment_2**
 
-(Push from your machine after creating the empty repo on [GitHub Dashboard](https://github.com/dashboard) — see commands below.)
-
 ### Required repository structure (guideline Step 3)
 
 ```text
@@ -125,7 +123,7 @@ streamlit run app.py
 1. Push this folder to GitHub  
 2. Open https://streamlit.io/cloud → Sign in with GitHub  
 3. **New App** → select repo → branch `main` → main file `app.py`  
-4. Deploy → copy the live URL into this README and your submission PDF  
+4. Deploy → **https://mlassignment2-gmvr8wnoh6htxrwr5rrzt9.streamlit.app/** 
 
 ## BITS Virtual Lab note
 
