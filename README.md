@@ -73,7 +73,7 @@ ML_Assignment_2/
 ### Live Streamlit App Link
 
 > **Replace after Streamlit Cloud deploy:**  
-> `https://<YOUR_APP_NAME>.streamlit.app`
+> `https://mlassignment2-gmvr8wnoh6htxrwr5rrzt9.streamlit.app/`
 
 ---
 
