@@ -49,6 +49,9 @@ In this assignment I:
 
 **https://github.com/soniyajuneja000/ML_Assignment_2**
 
+### Required repository structure (guideline Step 3)
+
+```text
 ML_Assignment_2/
 ├── app.py                 # Streamlit application
 ├── requirements.txt
@@ -66,6 +69,7 @@ ML_Assignment_2/
 ```
 
 ### Live Streamlit App Link
+
 **https://mlassignment2-gmvr8wnoh6htxrwr5rrzt9.streamlit.app/**
 
 ---
@@ -120,7 +124,7 @@ streamlit run app.py
 1. Push this folder to GitHub  
 2. Open https://streamlit.io/cloud → Sign in with GitHub  
 3. **New App** → select repo → branch `main` → main file `app.py`  
-4. Deploy → **https://mlassignment2-gmvr8wnoh6htxrwr5rrzt9.streamlit.app/** 
+4. Deploy → Live app: **https://mlassignment2-gmvr8wnoh6htxrwr5rrzt9.streamlit.app/**
 
 ## BITS Virtual Lab note
 
