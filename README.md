@@ -49,7 +49,6 @@ In this assignment I:
 
 **https://github.com/soniyajuneja000/ML_Assignment_2**
 
-```text
 ML_Assignment_2/
 ├── app.py                 # Streamlit application
 ├── requirements.txt
